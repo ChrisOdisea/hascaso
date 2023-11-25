@@ -20,41 +20,37 @@ header{
 main{  
     background-color: rgb(87, 72, 197);
     text-align: center;
+    
 }
 
 section{
     background-color: rgb(81, 51, 141);
+    margin-top: 20px;
 }
 
 footer{
     background-color: rgb(81, 81, 195);
     text-align: center;
-    top: 17px;
-    padding-top: 10px;
+    
+    
 }
+    
 div{
-    width: 250px;
-    position: relative;
-    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .redes{
     
-    position: absolute;
-    left: 725px;
-    bottom: 0.02em;
-    margin-top: 1px;
+   
 }
 .redes1{
-    position: absolute;
-    left: 825px;
-    bottom:0.02em;
-    margin-top: 1px;
+    
 
 }
 .redes2{
-    position: absolute;
-    left: 925px;
-    bottom: 0.02em;
-    margin-top: 1px;
+    
 }
