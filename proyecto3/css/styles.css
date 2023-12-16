@@ -72,7 +72,7 @@ main{
     height: Hug (461.07px);
     max-width: Hug(1,090px);
     margin: auto;
-    margin-top: 6rem;
+    margin: 6rem;
 }
 .deportista{
     width: 540px;
@@ -100,4 +100,45 @@ p{
     height: 71px;
     font-size: 16.56px;
     font-weight: 500;
+}
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B48BF;
+    color: white;
+    width: Fixed (1,440px);
+    height: Hug (168px);
+    top: 817px;
+    padding: 40px 0px 40px 0px;
+    gap: 100px;
+    
+}
+.titulo1{
+    width: 450px;
+    height: 88px;
+    font-size: 36px;
+}
+.parrafo1{
+    width: 450px;
+    height: 88px;
+    font-size: 16px;
+}
+
+.seccion2 {
+    display: grid;
+    grid-template-columns: repeat(2,530px);
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 40px 0px 40px 0px;
+}
+
+.huerfano{
+    width: 530px;
+    height: 162px;
+    position: relative;
+    left: 50%;
+    
 }
