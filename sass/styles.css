@@ -1,0 +1,103 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #000000;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: #b663e6;
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+}
+nav li {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 100px;
+  background-color: #fff;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.dato {
+  background: rgb(82, 97, 231);
+  box-shadow: 0 0 1px rgba(82, 97, 231, 0.25);
+  color: #fff;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dato1 {
+  background: rgb(214, 67, 67);
+  box-shadow: 0 0 1px rgba(214, 67, 67, 0.25);
+  color: #fff;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dato2 {
+  background: rgb(74, 201, 74);
+  box-shadow: 0 0 1px rgba(74, 201, 74, 0.25);
+  color: #fff;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* This CSS will print because %message-shared is extended. */
+.exend4, .extend3, .extend2, .extend1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(80, 78, 209);
+  margin: 10px;
+}
+
+.extend2 {
+  border-color: rgb(105, 180, 105);
+}
+
+.extend3 {
+  border-color: rgb(202, 83, 83);
+}
+
+.exend4 {
+  border-color: rgb(231, 231, 8);
+}/*# sourceMappingURL=styles.css.map */
