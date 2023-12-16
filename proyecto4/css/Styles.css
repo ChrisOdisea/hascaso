@@ -43,9 +43,13 @@ a {
     
 }
 
-
+.contenedor{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 main{
     padding: 20px;
+    justify-self: center;
 }
 .estados{
    display: flex;
@@ -68,6 +72,14 @@ main{
     padding: 10px;
 
 }
-div{
-    display: grid;
+
+
+.mensajes{
+    width: 284px;
+    height: 175px;
+    top: 135px;
+    left: 845px;
+}
+.FotoPerfil{
+    width: 50px;
 }
